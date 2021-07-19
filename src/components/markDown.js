@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import {Flex,Heading, Textarea,Text} from "@chakra-ui/react"
+import {Flex,Heading, Textarea} from "@chakra-ui/react"
 import { Link } from "@chakra-ui/react"
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import ReactMarkdown from 'react-markdown'
@@ -7,7 +7,7 @@ import ReactMarkdown from 'react-markdown'
 
 const MarkDownEditor = () => {
 
-    const [editorText,setEditorText] = useState('Welcome')
+    const [editorText,setEditorText] = useState('Welcome to this page')
 
     return (
         
